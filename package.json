@@ -1,0 +1,38 @@
+{
+  "name": "thumper",
+  "version": "1.0.0",
+  "description": "Dump all messages on a RabbitMQ queue to the disk",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "rabbitmq",
+    "amqplib"
+  ],
+  "author": "Ben Parnell <benjaminparnell.94@gmail.com",
+  "contributors": [
+    {
+      "name": "Ben Parnell",
+      "email": "benjaminparnell.94@gmail.com"
+    },
+    {
+      "name": "Natalie Baird"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bluebird": "^3.5.2",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier": "^1.14.2"
+  }
+}
